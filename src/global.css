@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: theme('colors.gray.300');
+    border-radius: 5px;
+}
+
+.content-text > .i-error {
+    color: theme('colors.red.400')
+}
